@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                   .setMessage(bmi+"請多吃點")
                   .show();
         }
-        if(h>3){
+        if(bmi>3){
         new AlertDialog.Builder(MainActivity.this)
                 .setMessage("身高單位應為公尺")
                 .setPositiveButton("OK",null)
