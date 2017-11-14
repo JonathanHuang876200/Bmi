@@ -57,6 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="7dp"
+        android:onClick="bmi"
         android:text="OK"
         app:layout_constraintLeft_toLeftOf="@+id/ed_height"
         app:layout_constraintTop_toBottomOf="@+id/ed_height" />

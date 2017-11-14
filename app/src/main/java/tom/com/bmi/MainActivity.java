@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                   .show();
         }
         if(h>3){
-        new AlertDialog.Builder(this)
+        new AlertDialog.Builder(MainActivity.this)
                 .setMessage("身高單位應為公尺")
                 .setPositiveButton("OK",null)
                 .show();
