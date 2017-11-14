@@ -57,18 +57,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="7dp"
-        android:text="Calculate Bmi"
+        android:text="OK"
         app:layout_constraintLeft_toLeftOf="@+id/ed_height"
         app:layout_constraintTop_toBottomOf="@+id/ed_height" />
-
-    <Button
-        android:id="@+id/b_help"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="8dp"
-        android:text="Info"
-        app:layout_constraintLeft_toLeftOf="@+id/b_bmi"
-        app:layout_constraintTop_toBottomOf="@+id/b_bmi" />
 
 </android.support.constraint.ConstraintLayout>
